@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Project 101</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+    <div class="logo">
+        <img src="Image/EMMANUEL 4.jpeg" alt="Project 101 Logo">
+    </div>
+
+    <div class="web-title">
+        <h2>Emmanuel <span>Websites</span></h2>
+        <p>Learn Today. Lead Tomorrow.</p>
+    </div>
+
+    <!-- Hamburger menu button -->
+    <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+    >
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <nav id="main-navigation">
+        <a href="index.html" >Home</a>
+        <a href="about.html" >About</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+</header>
+
+    <main class="inner-page">
+
+        <section class="page-banner">
+            <p class="section-tag">WE WOULD LOVE TO HEAR FROM YOU</p>
+            <h1>Get in <span>Touch</span></h1>
+            <p>
+                Have a question, suggestion, or idea?
+                Send us a message and let us know how we can help.
+            </p>
+        </section>
+
+        <section class="contact-layout">
+
+            <div class="contact-information">
+                <p class="section-tag">CONTACT INFORMATION</p>
+                <h2>Let's Start a <span>Conversation</span></h2>
+
+                <p class="contact-intro">
+                    We welcome your questions, feedback, and suggestions
+                    about Project 101 and its learning resources.
+                </p>
+
+                <div class="contact-item">
+                    <div class="contact-icon">✉</div>
+                    <div>
+                        <h3>Email Address</h3>
+                        <p>ngeleemma188@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">☎</div>
+                    <div>
+                        <h3>Phone Number</h3>
+                        <p>+234 911 423 2068</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">⌖</div>
+                    <div>
+                        <h3>Location</h3>
+                        <p>Delta State, Nigeria</p>
+                    </div>
+                </div>
+
+                <div class="contact-note">
+                    <h3>Our Commitment</h3>
+                    <p>
+                        We believe every question is an opportunity
+                        to learn something new.
+                    </p>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <h2>Send Us a Message</h2>
+                <p class="form-description">
+                    Fill in the details below.
+                </p>
+
+                <form action="#" method="post">
+
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input
+                            type="text"
+                            id="fullname"
+                            name="fullname"
+                            placeholder="Enter your full name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email address"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            placeholder="What is your message about?"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="category">Message Category</label>
+                        <select id="category" name="category" required>
+                            <option value="">Choose a category</option>
+                            <option value="question">General Question</option>
+                            <option value="resources">Learning Resources</option>
+                            <option value="suggestion">Suggestion</option>
+                            <option value="feedback">Feedback</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Write your message here..."
+                            required
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        Submit Message →
+                    </button>
+                    <!-- 
+                    <p class="form-note">
+                        This demonstration form does not send messages yet.
+                    </p>
+                         -->
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-about">
+                <div class="footer-brand">
+                    <img src="Image/EMMANUEL 4.jpeg" alt="Project 101 Logo">
+                    <h3>PROJECT <span>101</span></h3>
+                </div>
+                <p>
+                    Inspiring minds through education, reading,
+                    and the pursuit of knowledge.
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Opening Hours</h3>
+                <p>Monday – Friday</p>
+                <p>8:00 AM – 4:00 PM</p>
+                <p>Saturday – Sunday: Closed</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Useful Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Get in Touch</h3>
+                <p>Delta State, Nigeria</p>
+                <p>Phone: +234 911 423 2068</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bar">
+            <p>&copy; 2026 Project 101. All Rights Reserved.</p>
+            <p>Built for learning and discovery.</p>
+        </div>
+    </footer>
+
+    <!-- Martha's Contact Page Popup -->
+<div id="martha-welcome" class="welcome-overlay">
+    <div class="welcome-box">
+        <button
+            type="button"
+            class="welcome-close"
+            id="welcome-close"
+            aria-label="Close welcome message"
+        >&times;</button>
+
+        <p class="welcome-label"></p>
+
+        <h2>Looking for me,  😄</h2>
+
+        <p class="welcome-intro">
+            You've found the right place
+        </p>
+
+        <p>
+            This is where you can contact me if you need to reach out.
+        </p>
+
+        <div class="welcome-divider"></div>
+
+        <p class="welcome-guide">
+            But since you already have my number, why not just
+            call or message me directly 😂
+        </p>
+
+        <button
+            type="button"
+            class="welcome-explore"
+            id="welcome-explore"
+        >
+            Okay, Let's Go
+        </button>
+    </div>
+</div>
+
+<!-- Martha's Personal Guide -->
+<div id="personal-guide">
+    <button type="button" id="guide-toggle"
+        aria-expanded="false" aria-controls="guide-panel">
+        <span class="guide-icon">☰</span>
+        Need a Guide?
+    </button>
+
+    <div id="guide-panel" hidden>
+        <div class="guide-heading">
+            <div>
+                <h3>Your Personal Guide</h3>
+                <p>Here to help you explore!</p>
+            </div>
+            <button type="button" id="guide-close"
+                aria-label="Close guide">&times;</button>
+        </div>
+
+        <p class="guide-greeting">
+            Hey Martha! 😄 Want to know more about me?
+            Let me show you around!
+        </p>
+
+        <a href="index.html" class="guide-link">
+            <span>⌂</span>
+            <span><strong>Take me Home</strong>
+            <small>Return to the main page.</small></span>
+        </a>
+
+        <a href="about.html" class="guide-link">
+            <span>◉</span>
+            <span><strong>About</strong>
+            <small>Explore the vision and mission.</small></span>
+        </a>
+
+        <a href="gallery.html" class="guide-link">
+            <span>▧</span>
+            <span><strong>Show me the Gallery</strong>
+            <small>Explore pictures and resources.</small></span>
+        </a>
+
+        <a href="contact.html" class="guide-link">
+            <span>✉</span>
+            <span><strong>Let's Get in Touch</strong>
+            <small>Visit the Contact page.</small></span>
+        </a>
+
+        <p class="guide-footer">
+            Psst… there's more to explore! 😉
+        </p>
+    </div>
+</div>
+
+
+<!-- Martha's Personal Guide -->
+<div id="personal-guide">
+    <button type="button" id="guide-toggle"
+        aria-expanded="false" aria-controls="guide-panel">
+        <span class="guide-icon">☰</span>
+        Need a Guide?
+    </button>
+
+    <div id="guide-panel" hidden>
+        <div class="guide-heading">
+            <div>
+                <h3>Your Personal Guide</h3>
+                <p>Here to help you explore!</p>
+            </div>
+            <button type="button" id="guide-close"
+                aria-label="Close guide">&times;</button>
+        </div>
+
+        <p class="guide-greeting">
+            Martha! 😄 Have something to say or a question to ask?
+            You know where to find me!
+        </p>
+
+        <a href="index.html" class="guide-link">
+            <span>⌂</span>
+            <span><strong>Take me Home</strong>
+            <small>Return to the main page.</small></span>
+        </a>
+
+        <a href="about.html" class="guide-link">
+            <span>◉</span>
+            <span><strong>About</strong>
+            <small>Explore the vision and mission.</small></span>
+        </a>
+
+        <a href="gallery.html" class="guide-link">
+            <span>▧</span>
+            <span><strong>Show me the Gallery</strong>
+            <small>Explore pictures and resources.</small></span>
+        </a>
+
+        <a href="contact.html" class="guide-link">
+            <span>✉</span>
+            <span><strong>Contact</strong>
+            <small>You're already in the right place!</small></span>
+        </a>
+
+        <p class="guide-footer">
+            Don't be shy! 😉
+        </p>
+    </div>
+</div>
+    <script src="JS/script.js"></script>
+</body>
+</html>
